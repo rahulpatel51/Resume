@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.resume-container {
+    max-width: 900px;
+    margin: 20px auto;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.header {
+    text-align: center;
+    background: #065e73;
+    color: #fff;
+    padding: 35px 0;
+  }
+
+.header h1 {
+    margin: 0;
+}
+
+.contact-info {
+    padding: 10px 0;
+    text-align: center;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    background: linear-gradient(135deg, #eae8e8 0%, #e9e9e9 100%);
+
+}
+
+.contact-info p {
+    margin: 5px 0;
+    font-size: 14px;
+    text-align: center;
+    border: none;
+}
+
+.resume-content {
+    display: flex;
+    padding: 20px;
+    background: linear-gradient(135deg, #eae8e8 0%, #e9e9e9 100%);
+}
+
+.left-column {
+    width: 65%;
+    padding-right: 20px;
+    border-right: 1px solid #ddd;
+}
+
+.right-column {
+    width: 35%;
+    padding-left: 20px;
+    border-left: 1px solid black;
+    background: linear-gradient(135deg, #dbdbdb 0%, #e9e9e9 100%);
+}
+
+h2,
+h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: disc inside;
+    padding-left: 0;
+}
+
+ul li {
+    margin: 5px 0;
+    text-align: justify;
+}
+
+a {
+    text-decoration: none;
+    color: #0275d8;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p {
+    margin: 10px 0;
+    text-align: justify;
+    border-bottom: 1px solid black;
+}
+
+.imp {
+    margin: 10px 0;
+    text-align: inherit;
+    border: none;
+}
+
+.border{
+    border-bottom: 1px solid black;
+}
+.Projects{
+    border: none;
+}
+@media (max-width: 768px) {
+    .resume-content {
+        flex-wrap: wrap;
+    }
+
+    .left-column,
+    .right-column {
+        width: 100%;
+        padding: 10px;
+        border-right: none;
+    }
+}
